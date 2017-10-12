@@ -5,6 +5,6 @@
     </string>
     <string name="home_button_blue"><![CDATA[RESERVER \nUN RESTAURANT]]></string>
     <string name="home_button_red"><![CDATA[RESERVER \nUN HOTEL]]></string>
-    <string name="listing_restaurant_title">Les Restaurants</string>
-    <string name="Listing_hotel_title">Les Hôtels</string>
+    <string name="listing_restaurant_title">Restaurants</string>
+    <string name="Listing_hotel_title">Hôtels</string>
 </resources>
