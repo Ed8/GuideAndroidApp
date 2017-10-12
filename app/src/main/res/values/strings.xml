@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Guide</string>
+    <string name="main_title"><![CDATA[Hôtels & Restaurants]]></string>
+    <string name="home_button_green"><b>hotel resto</b> \nRetrouvez les meilleurs hotels et restaurants
+    </string>
+    <string name="home_button_blue"><![CDATA[RESERVER \nUN RESTAURANT]]></string>
+    <string name="home_button_red"><![CDATA[RESERVER \nUN HOTEL]]></string>
+    <string name="listing_restaurant_title">Les Restaurants</string>
+    <string name="Listing_hotel_title">Les Hôtels</string>
+</resources>

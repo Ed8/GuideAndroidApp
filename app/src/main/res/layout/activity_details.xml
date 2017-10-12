@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.eudgroupe.guide.DetailsActivity">
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/imageViewPhoto"
+        android:src="@drawable/photo_restaurant"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mc Do"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/textViewCategory"
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fast Food"/>
+
+        <Button
+            android:onClick="sendEmail"
+            android:id="@+id/buttonEmail"
+            android:background="@drawable/bouton_email_off"
+            android:text="info@macdo.fr"
+            android:textColor="@color/whiteColor"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:onClick="callPhone"
+            android:id="@+id/buttonPhone"
+            android:background="@drawable/bouton_tel_off"
+            android:text="0123456789"
+            android:textColor="@color/whiteColor"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:onClick="visitWebsite"
+            android:id="@+id/buttonSite"
+            android:background="@drawable/bouton_site_off"
+            android:textColor="@color/whiteColor"
+            android:text="macdo.com"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.eudgroupe.guide.HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/accueil1"/>
+
+        <Button
+            android:gravity="left|center_vertical"
+            android:text="@string/home_button_green"
+            android:textColor="@color/whiteColor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/accueil2"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonBlue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/accueil3"
+        android:gravity="left|center_vertical"
+        android:text="@string/home_button_blue"
+        android:textColor="@color/whiteColor" />
+
+    <Button
+        android:id="@+id/buttonRed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/accueil4"
+        android:gravity="left|center_vertical"
+        android:text="@string/home_button_red"
+        android:textColor="@color/whiteColor" />
+
+</LinearLayout>
